@@ -12,6 +12,16 @@ float sun_Sub(float valor1, float valor2){
   return valor1 - valor2;
 }
 
+float fun_Mult(float valor1, float valor2){
+
+  return valor1 * valor2;
+}
+
+float fun_Div(float valor1, float valor2){
+
+  return valor1 / valor2;
+}
+
 
 int main() {
 
@@ -19,7 +29,7 @@ int main() {
 
 std::string operacao;
 
-std::cout<<"Digite Som para somar e Sub para subtrair.\n";
+std::cout<<"Digite 'Som' para somar, 'Sub' para subtrair, 'Mult' para multiplicar e 'Div'.\n";
 
 std::cout<<"Qual operacao matematica quer fazer?\n";
 std::cin>>operacao;
@@ -44,7 +54,20 @@ else if(operacao == "Sub"){
 
 }
 
+else if(operacao == "Mult"){
+    
+    float result = fun_Mult(valor1, valor2);
+     std::cout<<"RESULTADO = "<<result<<"\n";
+    
+}
 
-return 0;
+else if(operacao == "Div"){
+    
+    float result = fun_Div(valor1, valor2);
+     std::cout<<"RESULTADO = "<<result<<"\n";
+
+}
+
+  return 0;
 
 }
