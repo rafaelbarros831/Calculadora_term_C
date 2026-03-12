@@ -29,7 +29,7 @@ int main() {
 
 std::string operacao;
 
-std::cout<<"Digite 'Som' para somar, 'Sub' para subtrair, 'Mult' para multiplicar e 'Div'.\n";
+std::cout<<"Digite 'Som' para somar, 'Sub' para subtrair, 'Mult' para multiplicar e 'Div' para dividir.\n";
 
 std::cout<<"Qual operacao matematica quer fazer?\n";
 std::cin>>operacao;
