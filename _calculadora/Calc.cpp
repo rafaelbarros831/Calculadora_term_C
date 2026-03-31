@@ -68,6 +68,7 @@ else if(operacao == "Div"){
 
 }
 
+ system("pause");
   return 0;
 
 }
