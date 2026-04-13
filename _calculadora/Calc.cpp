@@ -31,8 +31,14 @@ std::string operacao;
 
 std::cout<<"Digite 'Som' para somar, 'Sub' para subtrair, 'Mult' para multiplicar e 'Div' para dividir.\n";
 
+while(true){
+
 std::cout<<"Qual operacao matematica quer fazer?\n";
 std::cin>>operacao;
+
+if (operacao == "SOS"){
+break;
+}
 
 std::cout<<"Insira o primeiro valor:";
 std::cin>>valor1;
@@ -69,6 +75,9 @@ else if(operacao == "Div"){
 }
 
  system("pause");
+
+
+}
  
   return 0;
 
