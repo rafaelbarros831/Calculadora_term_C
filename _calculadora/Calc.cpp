@@ -29,7 +29,7 @@ int main() {
 
 std::string operacao;
 
-std::cout<<"Digite 'Som' para somar, 'Sub' para subtrair, 'Mult' para multiplicar e 'Div' para dividir.\n";
+std::cout<<"Digite 'Som' para somar, 'Sub' para subtrair, 'Mult' para multiplicar e 'Div' para dividir.\n"<<"Voce pode digitar 'SOS' para sair do programa.\n";
 
 while(true){
 
